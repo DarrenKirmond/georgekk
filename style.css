@@ -1,18 +1,31 @@
 .carousel-item {
-    height: 800px; }
+    height: 600px; }
   
   .carousel-image-1 {
     background: url("images/ENG2-e1338361532138.jpg");
-    background-size: cover; }
+    background-size: 100%; 
+    background-repeat: no-repeat;}
   
   .carousel-image-2 {
     background: url("images/fade-b1-1024x526.jpg");
-    background-size: cover; }
+    background-size: 100%; 
+    background-repeat: no-repeat;}
   
   .carousel-image-3 {
     background: url("images/mimaki2.jpg");
-    background-size: cover; }
+    background-size: 100%; 
+    background-repeat: no-repeat;}
 
 .about{
   width: 500px;
+}
+
+.caption-style {
+  border-radius: 2em;
+  background-color: rgb(12, 37, 37);
+  opacity: 0.8;
+}
+
+#nav-brand {
+  border-radius: 2em;
 }
